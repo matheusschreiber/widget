@@ -9,7 +9,6 @@ interface FeedBackContentStepProps {
     feedbackstate: FeedbackType
     onFeedbackTypeChanged: (type:FeedbackType | null) => void
     onFeedbackSent: () => void
-
 }
 
 export default function FeedbackContentStep(props:FeedBackContentStepProps) {
